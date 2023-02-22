@@ -7,6 +7,7 @@
       <h3>
         <slot name="heading"></slot>
       </h3>
+      <h3 v-bind:parent-msga=""></h3>
       <slot></slot>
     </div>
   </div>
